@@ -29,7 +29,7 @@ custom_regex_strings:
   default: ^#!
   type: list
   description:
-    en: "Additional regex match strings to detect possible code fragments. CAUTION: These strings are evaluated directly with no syntax checking."
+    en: "Additional regex match strings to detect possible code fragments. CAUTION: These strings are evaluated directly with no syntax checking. Expressions cannot contain the alternation <kbd>|</kbd> character." 
 include_extra_patterns:
   default: false
   description:
